@@ -1,0 +1,6 @@
+docker run -d \
+  --name gitea \
+  -p 3000:3000 \
+  -p 2222:22 \
+  -v /home/ubuntu/data:/data \
+  gitea/gitea:latest
